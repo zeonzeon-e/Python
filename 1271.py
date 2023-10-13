@@ -1,5 +1,6 @@
-n, m = input().split()
+A = input()
+B = input()
 
-print(int(n) // int(m))
-print(int(n) % int(m))
-ㄴ
+print(int(A) + int(B))
+print(int(A) - int(B))
+print(int(A) * int(B))
