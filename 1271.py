@@ -1,6 +1,4 @@
-A = input()
-B = input()
+N = input()
 
-print(int(A) + int(B))
-print(int(A) - int(B))
-print(int(A) * int(B))
+for i in range(1, int(N) + 1):
+    print("*" * i)
