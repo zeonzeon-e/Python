@@ -2,8 +2,4 @@
 # map을 사용하면 list로 다시 한 번 바꿔줘야 한다.
 # 여기서 list가 없어도 되네..
 
-num = map(int, input().split())
-result = 0
-for i in num:
-    result += i**2
-print(result % 10)
+print(type(list(map(int, input().split()))))
