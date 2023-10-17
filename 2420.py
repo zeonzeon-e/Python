@@ -1,9 +1,16 @@
+A, B = [], []
+
 N, M = map(int, input().split())
 
+for row in range(N):
+    row = list(map(int, input().split()))
+    A.append(row)
 
-result = N - M
+for row in range(N):
+    row = list(map(int, input().split()))
+    B.append(row)
 
-if result < 0:
-    result = -(result)
-
-print(result)
+for row in range(N):
+    for col in range(M):
+        print(A[row][col] + B[row][col], end=" ")
+    print()
