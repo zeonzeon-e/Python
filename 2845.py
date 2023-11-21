@@ -15,5 +15,6 @@ tmp = []
 
 for i in news:
     tmp.append(str(i - (N * M)))
+    
 
 print(" ".join(tmp))
